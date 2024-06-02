@@ -1,4 +1,7 @@
 Client/node_modules
 Server/node_modules
 ServerAuth/node_modules
-Terraform
+Terraform/.idea
+Terraform/.terraform
+Terraform/terraform.tfstate
+Terraform/terraform.tfstate.backup
