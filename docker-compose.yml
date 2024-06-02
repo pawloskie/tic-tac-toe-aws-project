@@ -3,6 +3,11 @@ services:
     build: ./Server
     ports:
       - 3000:3000
+      
+  backendAuth:
+    build: ./ServerAuth
+    ports:
+      - 4000:4000
 
   frontend:
     build: ./Client
